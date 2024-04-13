@@ -16,8 +16,8 @@ class CustomTkinterApp(tk.Tk):
         super().__init__()
         self.geometry("800x650")
 
-        self.api_id = 26035258
-        self.api_hash = '0de12a831f1faa45cb329d9ca51e0125'
+        self.api_id = 'YOUR_ID'
+        self.api_hash = 'YOUR_HASH'
         self.client = TelegramClient('Auth_data', api_id=self.api_id, api_hash=self.api_hash)
 
         self.data_list = None
